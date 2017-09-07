@@ -1,0 +1,107 @@
+body,
+button,
+div,
+h1, h2, h3, h4, h5, h6,
+input,
+ul, li, ol, dl, dt, dd,
+p, i, b,
+textarea,header{
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	-webkit-tap-highlight-color:rgba(0,0,0,0);
+ 			tap-highlight-color:rgba(0,0,0,0);
+}
+::-webkit-input-placeholder { /* WebKit browsers */ 
+	color: #E5e5ee; 
+} 
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+button, input[type = submit], input[type = button], select {
+	cursor: pointer
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #333;
+}
+html,body{
+	font-family: "Helvetica";
+	width: 100%;
+}
+.clearfix:after{
+	display:block;
+	clear:both;
+	content:"";
+	visibility:hidden;
+	height:0
+} 
+.clearfix{zoom:1} 
+
+#onepx{
+	height: 1px!important;
+	width: 200%!important;
+	line-height: 0!important;
+	background:#dad8d8;
+	-webkit-transform:scale(0.5);
+    -webkit-transform-origin:0 0;
+    transform:scale(0.5);
+    transform-origin:0 0;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.ell{
+    text-overflow:ellipsis; 
+    white-space:nowrap; 
+    overflow:hidden;
+}
+.touchscroll{
+ 	-webkit-overflow-scrolling : touch;
+ 			overflow-scrolling : touch;
+}
+.mint-loadmore{
+	overflow: hidden!important; 
+}
+.input{
+	background: none;
+	border:none;
+	outline: none;
+}
+.mint-indicator-mask{
+	z-index: 2000;
+}
+.mint-toast{
+    z-index: 2014;
+}
+.mint-msgbox-confirm {
+	color: #ff4d4d;
+}
+.mint-msgbox{
+	border-radius: .16rem;
+}
+.mint-msgbox-title{
+	color: #333;
+	font-weight: 900;
+	font-size: .34rem;
+}
+.mint-msgbox-content{
+}
+.mint-msgbox-message{
+	font-size: .30rem;
+	color: #666;
+
+}
+.mint-msgbox-btns{
+
+	height: .96rem;
+}
+.mint-msgbox-btn{
+	font-size: .30rem;
+}
+.mint-msgbox-cancel{
+	color: #666;
+}
